@@ -1,0 +1,248 @@
+*{margin: 0; padding: 0;}
+ul{list-style: none;}
+a{text-decoration: none; color: #0f0f0f;}
+
+body{
+  font-family: 'NanumSquare';
+  font-size: 17px;
+  line-height: 24px;
+  color: #0f0f0f;
+}
+.header{border-bottom: 1px solid #0f0f0f;}
+.header_inner{
+  width: 1320px; height: 150px;
+  margin: 0 auto;
+  padding: 15px 0;
+  box-sizing: border-box;
+  background-color: #fff;
+  position: relative;
+}
+.header_inner h1{text-align: center; padding-top: 2px;}
+
+.menu{
+  position: absolute;
+  top: 98px;
+  left: 0px;
+}
+.nav> li{float: left;}
+.nav> li:hover>a{color:#d67474; font-weight: bold;}
+.nav> li> a{
+  display: block;
+  padding-right: 35px;
+}
+.nav li:nth-child(2) a{font-weight: bold; color:#d67474;}
+.my{
+  position: absolute;
+  top: 96px;
+  right: 0;
+}
+.my ul li{float: left; padding-right: 50px;}
+.my ul li:last-child{padding: 0;}
+.my ul li:hover a{color: #93bd93; font-weight: bold;}
+/*헤더*/
+
+.content{
+  width: 1230px;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+}
+.m{
+  position: absolute;
+  top: 25px; left: 0;
+}
+.m ul li{
+  float: left;
+  margin-right: 15px;
+}
+.m ul li a{
+  font-size: 13px;
+  font-family: '나눔고딕';
+}
+.m ul li:nth-child(3) a{font-weight: bold;}
+
+.product{
+  width: 1230px;
+  overflow: hidden;
+}
+.product .left{
+  width: 566px;
+  height:800px;
+  float: left;
+  padding-top: 60px;
+}
+.product .left .big{
+  margin-bottom: 15px;
+  position: relative;
+}
+.product .left .big img{
+  position: absolute;
+  top: 0; left: 0;
+}
+.product .left .big2,.big3,.big4{
+  display: none;
+}
+.product .left .small{
+  width: 566px;
+  height: 120px;
+  position: absolute;
+  bottom: 160px; left: 0;
+}
+.product .left .small img{
+  width: 108px; height: 120px;
+  float: left; 
+  margin-right: 20px;
+}
+
+.product .right{
+  width: 600px;
+  float: right;
+  overflow: hidden;
+  padding-top: 60px;
+}
+.product .right .t{
+  width: 600px;
+  height: 165px;
+  border-bottom: 1px solid #0f0f0f;
+  position: relative;
+}
+.t h1{padding: 15px 0; font-size: 40px;}
+.t h1 span{font-size: 20px; }
+.t p{padding: 5px 0 10px 0; }
+.t h4{
+  position: absolute;
+  bottom: 30px; right: 100px;
+  font-family: 'NanumSquare';
+  font-size: 25px;
+}
+.t ul li{float: left; margin-right: 7px;}
+
+.btn1{
+  width: 340px;
+  height: 200px;
+  margin-top: 30px;
+  position: relative;
+}
+.btn1 .count {float: left;}
+.btn1 .count li{
+  width: 50px; height: 50px;
+  float: left;
+  margin-right: 5px;
+}
+.btn1 .count li:nth-child(1){
+  background: url(../images/icon03.png) #ebebeb no-repeat 13px 13px;
+}
+.btn1 .count li:nth-child(2){
+  width: 50px; height: 50px;
+  background-color: #f8f3e8;
+  border: 2px solid #cceecc;
+  padding: 13px 0 0 18px;
+  box-sizing: border-box;
+}
+.btn1 .count li:nth-child(3){
+  background: url(../images/icon02.png) #cceecc no-repeat 13px 13px;
+  margin-right: 0;
+}
+.btn1 .basket{float: right;}
+.btn1 .basket li{
+  float: left;
+}
+
+.btn1 .basket li:nth-child(1){
+  width: 110px; height: 50px;
+  padding: 12px 0 0 25px;
+  box-sizing: border-box;
+  background-color: #cceecc;
+}
+.btn1 .basket li:nth-child(2){
+  width:50px; height: 50px;
+  background:url(../images/icon.png) no-repeat 0 #b5dfb5;
+}
+.btn1 .basket li:nth-child(2):hover{background:url(../images/icon1.png) no-repeat 0 #b5dfb5;}
+.log_buy{
+  width: 340px; height: 110px;
+  position: absolute;
+  bottom: 0; left: 0;
+}
+.log_buy p{
+  padding-top: 12px;
+  box-sizing: border-box;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.log_buy p:nth-child(1){
+  width: 150px; height: 50px;
+  background-color: #cceecc;
+}
+.log_buy p:nth-child(2){
+  width: 320px; height: 50px;
+  background-color: #cceecc;
+}
+.log_buy p:hover{
+  background-color: #b5dfb5;
+}
+
+.btn2{
+  width: 340px;
+  height: 116px;
+  margin-top: 50px;
+}
+.btn2 div{
+  width: 340px;
+  height: 50px;
+  border: 1px solid #0f0f0f;
+  margin-bottom: 10px;
+  text-align: left;
+  padding-top: 12px;
+  padding-left: 25px;
+  box-sizing: border-box;
+}
+.btn2 div p span{
+  font-weight: bold;
+}
+.btn2 div:hover{
+  background-color: rgb(245, 245, 245);
+}
+
+
+
+
+
+/*푸터*/
+.footer_top{
+  width: 100%;
+  background-color: #e5e5e5;
+}
+
+.sns{
+  width: 1320px; height:90px;
+  margin: 0 auto; 
+  position: relative;
+}
+.sns ul{
+  position: absolute;
+  top: 25px; left: 50%;
+  transform: translateX(-50%);
+}
+.sns ul li{float: left; margin-right: 20px;}
+.sns ul li:hover img{
+  transform: translateY(-10px);
+}
+.sns ul li img{
+  width:50px;
+  transition: all 1s;
+}
+
+.footer_bottom{
+  width: 100%;
+  background-color: #666;
+}
+.company{
+  width: 1320px;
+  margin: 0 auto;
+  padding: 30px 0; 
+  box-sizing: border-box;
+  text-align: center;
+}
+.company ul{padding-top: 25px;}
+.company ul li{color: #444;}
