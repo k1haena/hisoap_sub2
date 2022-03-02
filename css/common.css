@@ -1,0 +1,60 @@
+* { margin:0; padding:0;}
+
+/* 목록 불릿 없애기 */
+ul{ list-style:none; }
+
+/* 하이퍼링크 설정 */
+a{ text-decoration:none; color:#000; }
+
+
+#board { 
+	width:600px; 
+	margin-top: 30px;
+}
+
+#board li{ 
+	width:100%; 
+}
+#board li a{ 
+	display:block;
+	border:1px solid #CCC; 
+	padding:15px 20px;  
+	background: url(../images/icon.png) no-repeat 95% 50%;
+}
+#board li a .s{
+	padding: 5px 45px;
+	background: url(../images/board.png) no-repeat 0 0;
+}
+#board li a .b{
+	padding: 5px 45px;
+	background: url(../images/board3.png) no-repeat 0 0;
+}
+#board li a .p{
+	padding: 5px 45px;
+	background: url(../images/board2.png) no-repeat 0 0;
+}
+
+#board li.on a{
+	font-weight:bold; 
+	background-color: #fff6d8;
+	background: #fff6d8 url(../images/icon2.png) no-repeat 95% 50%;
+}
+#board li:last-child a{
+	border-top:0;
+}
+#board li div{ 
+	width:100%; 
+	border:1px solid #ccc; 
+	border-top:0;
+	padding:10px 20px; 
+	box-sizing:border-box; 
+	display:none;
+	height: 48px;
+}
+#board li .dd p{padding-top:3px;}
+#board li .d{
+	height: 100px;
+}
+#board li .d p{
+	padding-bottom: 5px;
+}

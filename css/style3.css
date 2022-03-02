@@ -1,0 +1,249 @@
+*{margin: 0; padding: 0;}
+ul{list-style: none;}
+a{text-decoration: none; color: #0f0f0f;}
+
+body{
+  font-family: 'NanumSquare';
+  font-size: 17px;
+  line-height: 24px;
+  color: #0f0f0f;
+}
+.header{border-bottom: 1px solid #0f0f0f;}
+.header_inner{
+  width: 1320px; height: 150px;
+  margin: 0 auto;
+  padding: 15px 0;
+  box-sizing: border-box;
+  background-color: #fff;
+  position: relative;
+}
+.header_inner h1{text-align: center; padding-top: 2px;}
+
+.menu{
+  position: absolute;
+  top: 98px;
+  left: 0px;
+}
+.nav> li{float: left;}
+.nav> li:hover>a{color:#d67474; font-weight: bold;}
+.nav> li> a{
+  display: block;
+  padding-right: 35px;
+}
+.nav li:nth-child(2) a{font-weight: bold; color:#d67474;}
+.my{
+  position: absolute;
+  top: 96px;
+  right: 0;
+}
+.my ul li{float: left; padding-right: 50px;}
+.my ul li:last-child{padding: 0;}
+.my ul li:hover a{color: #93bd93; font-weight: bold;}
+/*헤더*/
+
+.content{
+  width: 1230px;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+}
+.m{
+  position: absolute;
+  top: 25px; left: 0;
+}
+.m ul li{
+  float: left;
+  margin-right: 15px;
+}
+.m ul li a{
+  font-size: 13px;
+  font-family: '나눔고딕';
+}
+.m ul li:nth-child(3) a{font-weight: bold;}
+
+.product{
+  width: 1230px;
+  overflow: hidden;
+  position: relative;
+}
+.product .left{
+  width: 566px;
+  height:800px;
+  float: left;
+  padding-top: 60px;
+}
+.product .left .big{
+  margin-bottom: 15px;
+  position: relative;
+}
+.product .left .big img{
+  position: absolute;
+  top: 0; left: 0;
+}
+.product .left .big2,.big3,.big4{
+  display: none;
+}
+.product .left .small{
+  width: 566px;
+  height: 88px;
+  position: absolute;
+  bottom: 30px; left: 0;
+}
+.product .left .small img{
+  width: 108px; height: 88px;
+  float: left; 
+  margin-right: 20px;
+}
+
+.product .right{
+  width: 600px;
+  float: right;
+  overflow: hidden;
+  padding-top: 60px;
+}
+.text{
+  width: 100%; height: 280px;
+  position: relative;
+}
+.text h1{padding-bottom: 10px;}
+.text h1 span{font-size: 20px;}
+.text p{padding-bottom: 10px;}
+.text .t{padding-top: 20px; color: #777;}
+.point{
+  position: absolute;
+  top: 150px; left: 0;
+}
+.point li{float: left; margin-right: 15px;}
+.point li:first-child{
+  padding: 3px 15px;
+  background-color: #d67474;
+  color: #fff;
+}
+.point li:last-child{
+  padding: 3px 15px;
+  background-color: #eebe75;
+  color: #fff;
+}
+.star{
+  position: absolute;
+  top: 190px; left: 0;
+}
+.star li{float: left; margin-right: 10px;}
+.star li img{width: 18px;}
+
+.text h3{
+  position: absolute;
+  top: 189px; left: 120px;
+  font-size: 15px;
+  color: #666;
+}
+.text h4{
+  position: absolute;
+  top: 250px; left:0px;
+  font-size: 40px;
+}
+.ts{
+  position: absolute;
+  bottom: 0; right: 0;
+}
+.ts li{
+  width: 50px; height: 50px;
+  float: left;
+  font-size: 0;
+}
+.ts li:first-child{
+  background: url(../images/love2.png) no-repeat 0 0;
+}
+.ts li:last-child{
+  background: url(../images/share.png) no-repeat 0 0;
+}
+
+.count{
+  width: 600px;
+  height: 110px;
+  background-color: #ffedec;
+  margin-top: 30px;
+  padding: 30px;
+  box-sizing: border-box;
+  position: relative;
+  
+}
+.count p{font-size: 20px;}
+.count input{
+  width: 50px;
+  height: 50px;
+  background-color: #fac8c9;
+  border-style: none;
+  float: left;
+  margin-right: 50px;
+}
+#result{
+  width: 50px; height: 50px;
+  background-color: #fff;
+  position: absolute;
+  top: 30px; right: 100px;
+  padding:15px 0 0 20px;
+  box-sizing: border-box;
+}
+.btn{
+  position: absolute;
+  top: 30px; right: 0;
+}
+
+.buy{
+  width: 600px;
+  margin-top: 20px;
+}
+.buy div{
+  width: 32.6%;
+  height: 50px;
+  border: 1px solid #8f8f8f;
+  float: left;
+  margin-right: 1%;
+  padding: 13px 0 0 65px;
+  box-sizing: border-box;
+}
+.buy div:last-child{margin-right: 0;}
+
+.buy div:hover{background-color: #ffe8e4;}
+
+
+
+/*푸터*/
+.footer_top{
+  width: 100%;
+  background-color: #e5e5e5;
+}
+
+.sns{
+  width: 1320px; height:90px;
+  margin: 0 auto; 
+  position: relative;
+}
+.sns ul{
+  position: absolute;
+  top: 25px; left: 50%;
+  transform: translateX(-50%);
+}
+.sns ul li{float: left; margin-right: 20px;}
+.sns ul li:hover img{
+  transform: translateY(-10px);
+}
+.sns ul li img{
+  width:50px;
+  transition: all 1s;
+}
+
+.footer_bottom{
+  width: 100%;
+  background-color: #666;
+}
+.company{
+  width: 1320px;
+  margin: 0 auto;
+  padding: 30px 0; 
+  box-sizing: border-box;
+  text-align: center;
+}
+.company ul{padding-top: 25px;}
+.company ul li{color: #444;}
