@@ -36,6 +36,7 @@ a{text-decoration: none; color: #000;}
 .tabcontent{
   width: 800px;
   margin: auto;
+  padding-bottom:20px;
 }
 .tabcontent img{display: block;}
 /* 탭컨테츠 꾸미기 */
