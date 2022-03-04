@@ -157,7 +157,19 @@ body{
   33% { background-color: #daecda; }
   66% { background-color: #80ad80; }
   100% { background-color: #daecda; }
-
+}
+.right_box .gift{
+  padding: 1px 6px;
+  background-color: #eebe75;
+  color: #fff;
+  font-size: 15px;
+  -webkit-animation: gift 2.5s linear infinite;
+}
+@-webkit-keyframes gift {
+  0% { background-color: #eebe75;}
+  33% { background-color: #fff8e2;}
+  66% { background-color: #eebe75;}
+  100% { background-color: #fff8e2;}
 }
 
 .r p{
