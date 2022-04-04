@@ -124,10 +124,9 @@ body{
 /*sub3*/
 .right_box{
   width: 1149px;
-  height: 215px;
+  height: 650px;
   float: right;
-  padding:0 0 0 70px;
-  margin-top: -585px;
+  padding: 65px 0 0 70px;
   box-sizing: border-box;
 }
 .right_box .r{
